@@ -1,0 +1,8 @@
+.vscode
+
+# Temp files for testing
+test.py
+temp.ipynb
+
+*.egg-info
+*.code-workspace
