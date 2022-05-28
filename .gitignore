@@ -2,7 +2,12 @@
 
 # Temp files for testing
 test.py
-temp.ipynb
-
+#temp.ipynb
+#temp.py
+*_old.py
+*test.*
+*temp.*
 *.egg-info
 *.code-workspace
+*.pyc
+/notebook_tests
