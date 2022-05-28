@@ -8,7 +8,9 @@
 *_old.py
 *test.*
 *temp.*
+*_copy.*
 
 /.pytest_cache
 /notebook_tests
 __pycachce__
+notebooks/.ipynb_checkpoints
