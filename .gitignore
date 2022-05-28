@@ -14,3 +14,4 @@
 /notebook_tests
 __pycachce__
 notebooks/.ipynb_checkpoints
+/dist
