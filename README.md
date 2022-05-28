@@ -8,7 +8,7 @@ Theory contains three free functions $A(\phi)$, $B(\phi)$ and $V(\phi)$ which ar
 
 ![equation](https://latex.codecogs.com/svg.image?&space;S&space;=&space;\int&space;d^4x&space;\sqrt{-g}&space;\left\{&space;\frac{M_p^2}{2}&space;A(\phi)R&space;&space;-\frac{1}{2}B(\phi)g^{\mu&space;\nu}&space;\nabla_{\mu}&space;\phi&space;\nabla_{\nu}&space;\phi&space;-&space;&space;V(\phi)&space;&space;\right&space;\}&space;\&space;.)
 
-$$ S = \int d^4x \sqrt{-g} \left\{ \frac{M_p^2}{2} A(\phi)R  -\frac{1}{2}B(\phi)g^{\mu \nu} \nabla_{\mu} \phi \nabla_{\nu} \phi -  V(\phi)  \right \} \ .$$
+$ S = \int d^4x \sqrt{-g} \left\{ \frac{M_p^2}{2} A(\phi)R  -\frac{1}{2}B(\phi)g^{\mu \nu} \nabla_{\mu} \phi \nabla_{\nu} \phi -  V(\phi)  \right \} \ .$
 
 Action can be formulated by invariant quantities as (in Einstein frame)
 
