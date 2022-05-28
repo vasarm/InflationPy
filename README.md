@@ -19,3 +19,12 @@ Problems what currently can be solved:
 2. Given two functions from (A, B, V) and also invariant potential then find third function.
 3. Einstein and Jordan frame N-fold difference
 4. Comapre model defined with A, B, V functions and model defined withinvariant potential.
+
+
+## Installation
+
+### Install using pip
+Install the InflationPy package:
+```
+pip install inflationpy
+```
