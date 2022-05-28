@@ -1,13 +1,14 @@
 .vscode
 
 # Temp files for testing
-test.py
-#temp.ipynb
-#temp.py
-*_old.py
-*test.*
-*temp.*
 *.egg-info
 *.code-workspace
 *.pyc
+
+*_old.py
+*test.*
+*temp.*
+
+/.pytest_cache
 /notebook_tests
+__pycachce__

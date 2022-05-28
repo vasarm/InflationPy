@@ -539,10 +539,11 @@ class NFoldCorrection(BaseSolver):
 
         if invariant:
             symbol = self.symbolI
-            integrand = sign*1 / self.mp**2 * self.I_V.f_s() / self.I_V.fd_s()
+            integrand = sign * 1 / self.mp**2 * self.I_V.f_s() / self.I_V.fd_s()
         else:
             integrand = (
-                sign*1
+                sign
+                * 1
                 / self.mp**2
                 * self.A.f_s()
                 * self.V.f_s()
