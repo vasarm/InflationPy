@@ -6,11 +6,11 @@ InflationPy is a package which uses inflation formulation in scalar–tensor the
 
 Theory contains three free functions $A(\phi)$, $B(\phi)$ and $V(\phi)$ which are used in action
 
-![equation](https://latex.codecogs.com/svg.image?S&space;=&space;\int&space;d^4x&space;\sqrt{-g}&space;\{&space;\frac{M_p^2}{2}&space;A(\phi)R&space;&space;-\frac{1}{2}B(\phi)g^{\mu&space;\nu}&space;\nabla_{\mu}&space;\phi&space;\nabla_{\nu}&space;\phi&space;-&space;&space;V(\phi)&space;&space;&space;\}&space;\&space;.)
+![equation](https://latex.codecogs.com/svg.image?S&space;=&space;\int&space;d^4x&space;\sqrt{-g}&space;[&space;\frac{M_p^2}{2}&space;A(\phi)R&space;&space;-\frac{1}{2}B(\phi)g^{\mu&space;\nu}&space;\nabla_{\mu}&space;\phi&space;\nabla_{\nu}&space;\phi&space;-&space;&space;V(\phi)&space;&space;&space;]&space;\&space;.)
 
 Action can be formulated by invariant quantities as (in Einstein frame)
 
-![equation](https://latex.codecogs.com/svg.image?S&space;=&space;\int&space;d^4x&space;\sqrt{-g}&space;\{&space;\frac{M_p^2}{2}&space;R&space;&space;-\frac{1}{2}g^{\mu&space;\nu}&space;\nabla_{\mu}&space;I_\phi&space;\nabla_{\nu}&space;I_\phi&space;-&space;&space;I_V(I_\phi)\}&space;\&space;.)
+![equation](https://latex.codecogs.com/svg.image?S&space;=&space;\int&space;d^4x&space;\sqrt{-g}&space;[&space;\frac{M_p^2}{2}&space;R&space;&space;-\frac{1}{2}g^{\mu&space;\nu}&space;\nabla_{\mu}&space;I_\phi&space;\nabla_{\nu}&space;I_\phi&space;-&space;&space;I_V(I_\phi)]&space;\&space;.)
 
 
 Problems what currently can be solved:
