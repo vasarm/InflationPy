@@ -703,13 +703,10 @@ class SlowRollModel:
             potential = self.V(params).f_s()
             epsilon = self.epsilon(params).f_s()
             symbol = self.symbol
-
         experimental_value = sp.exp(3.044)
         As = sp.Rational(1, 24) * potential / (self.mp**4 * sp.pi**2 * epsilon)
-        M = sp.root(experimental_value * sp.Pow(10, -10) / As, 4).subs({symbol: scalar_value}).subs(params)
-
+        M = sp.root(experimental_value * sp.Pow(10, -10) / As, 4).subs(params).subs({symbol: scalar_value})
         # ln(10^10 * A_s) = 3.044 ± 0.014
-
         return M
 
     def inspect(self, domain=sp.Reals, invariant=False):
@@ -845,8 +842,8 @@ class SlowRollModel:
 
             return a_domain, b_domain, v_domain, f_domain, epsilon_domain, eta_domain
 
-    def simplify(self, derivative=0, inverse=False):
-        if inverse:
+    def simplify(self, derivative=0, invariant=False):
+        if invariant:
             for func in [self.epsilonI, self.etaI, self.N_integrandI, self.n_sI, self.rI, self.A_sI]:
                 if isinstance(func, InflationFunction):
                     func.simplify(derivative=derivative)
